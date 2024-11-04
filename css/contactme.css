@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+body {
+    margin: 70px;
+    background: hsla(141, 54%, 86%, 1);
+    background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%); 
+    background: -webkit-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%); 
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAEFD7", endColorstr="#F5BFD7", GradientType=1 );
+}
+
+header {
+    border: solid 5px black;
+    background-color: white;
+    }
+
+h1 {
+    font-family: peralta;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    background-color: aquamarine;
+    border-top: solid 5px black;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-evenly;
+    font-size:115%;
+}
+
+.button {
+    background-color: aquamarine;
+    color: black;
+    padding: 5px 18px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+    background-color:aquamarine;
+    color: black; 
+    border: 2px solid aquamarine;
+  }
+
+  .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
+    background-color: rgb(109, 210, 177);
+    color: black;
+  }
+
+  .disabled {
+    background-color: #B2FFFF;
+    cursor: not-allowed;
+  }
+
+footer {
+   background-color: white;
+   border: 5px solid black;
+}
+
+#copyright {
+   text-align: center;
+}
+
+.Social-Media {
+   display: flex;
+   justify-content: space-around;
+}
+
+.fa  {
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   border-radius:50%;
+}
+
+.fa:hover {
+       opacity: 0.7;
+}
+
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+}
+ .fa-google {
+   background: #dd4b39;
+   color: white;
+}
+
+.fa-linkedin {
+   background: #007bb5;
+   color: white;
+}
+
+.fa-instagram {
+   background: #125688;
+   color: white;
+}
+ 
+.fa-snapchat-ghost {
+   background: #fffc00;
+   color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-flickr {
+   background: #f40083;
+   color: white;
+}
+
+form {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+   margin-left: 30%;
+   margin-right:30%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   gap: 30px;
+}
+
+#contact-form {
+   background-color: rgba(255, 255, 255, 0.613);
+   border: solid 2px black;
+   font-family: peralta;
+
+   text-align: center;
+}
+
+#webpage-rating {
+   background-color: rgba(255, 255, 255, 0.613);
+   border: solid 2px black;
+   font-family: peralta;
+
+   text-align: center;
+}
+
+.user-info {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+}
+
+.rating {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+input[type="submit"] {
+   background-color: rgba(255, 255, 255, 0.613);
+   font-family: peralta;
+   border: solid 2px black;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+
