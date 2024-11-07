@@ -43,19 +43,19 @@ nav {
     background-color:aquamarine;
     color: black; 
     border: 2px solid aquamarine;
-  }
+}
 
-  .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
     background-color: rgb(109, 210, 177);
     color: black;
-  }
+}
 
-  .disabled {
+.disabled {
     background-color: #B2FFFF;
     cursor: not-allowed;
-  }
+}
 
-footer {
+  footer {
    background-color: white;
    border: 5px solid black;
 }
@@ -68,6 +68,7 @@ footer {
    display: flex;
    justify-content: space-around;
 }
+
 
 .fa  {
    padding: 20px;
@@ -126,5 +127,5 @@ th, td {
 }
 
 table {
-   background-color: rgba(255, 255, 255, 0.846);
+   background-color:  rgba(255, 255, 255, 0.721);
 }

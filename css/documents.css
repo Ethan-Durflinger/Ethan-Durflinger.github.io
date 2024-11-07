@@ -50,10 +50,10 @@ nav {
     color: black;
   }
 
-  .disabled {
+.disabled {
     background-color: #B2FFFF;
     cursor: not-allowed;
-  }
+}
 
 footer {
    background-color: white;
@@ -113,3 +113,14 @@ footer {
 h2 {
    text-align: center;
 }
+
+#resume {
+   background-color:  whitesmoke;
+   border: solid 3px black;
+   margin-left: 15px;
+}
+
+th, td {
+   border: solid black;
+}
+
